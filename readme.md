@@ -1,5 +1,7 @@
 # Replication: Grace
 
+## This repository contains the scripts to generate data for popular Fault Localization works such as Grace and DepGraph.
+
 1. Run `defects_gen.sh` and `gzoltar_test.sh` for checking out all the buggy version of Lang and run Gzoltar on them for generating fault localization data.
 2. Run `run_coverage_gzoltar.sh` for generating the cobertura XML data.
 3. Run `fail_test_gen.py` for parsing the failed tests from the text files.
